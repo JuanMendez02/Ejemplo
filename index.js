@@ -11,9 +11,13 @@ app.get('/juanm',(req,res)=>{
     res.send('Hola soy JuanM')
 })
 
-//Jose
+//Jose hola
 app.get('/jose',(req,res)=>{
     res.send('Hola soy jose')
+})
+
+app.get('/pedro',(req,res)=>{
+    res.send('Hola soy pedro')
 })
 
 //Definir el parametro donde la aplicacion escucha

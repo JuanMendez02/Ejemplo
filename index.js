@@ -6,8 +6,13 @@ const app = express()
 //Definicion del puerto, donde se manipulan las variables de ambiente
 const port = process.env.PORT || 3000;
 
+//Mostrar 
 app.get('/juanm',(req,res)=>{
     res.send('Hola soy JuanM')
+})
+
+app.get('/jose',(req,res)=>{
+    res.send('Hola soy jose')
 })
 
 //Definir el parametro donde la aplicacion escucha

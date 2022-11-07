@@ -11,6 +11,7 @@ app.get('/juanm',(req,res)=>{
     res.send('Hola soy JuanM')
 })
 
+//Jose
 app.get('/jose',(req,res)=>{
     res.send('Hola soy jose')
 })
